@@ -1,6 +1,14 @@
 ## Hi i am PJ👋
 
 ### Frontend Developer • Web Designer • Student
+
+## 🚀 About Me
+
+- 🎓 Student and aspiring Frontend Developer
+- 🌐 Building responsive websites with HTML, CSS & JavaScript
+- 📚 Currently learning Git, GitHub and modern web development
+- 💡 Interested in UI/UX, animations and creative web design
+- 🎯 Goal: Become a Full-Stack Developer
 <!--
 **priyanshjain08/priyanshjain08** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -21,6 +29,17 @@ Here are some ideas to get you started:
 
 # 💻 Tech Stack:
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+
+## 📂 Featured Projects
+
+### 🌟 Personal Portfolio
+A responsive portfolio website showcasing my skills and projects.
+
+### 🚀 Zero8 Studio
+A modern business landing page with a clean and responsive design.
+
+More projects coming soon...
+
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.shion.dev/api?username=priyanshjain08&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://streak-stats.demolab.com/?user=priyanshjain08&theme=dark&hide_border=false)<br/>
