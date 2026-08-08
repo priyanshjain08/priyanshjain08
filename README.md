@@ -4,7 +4,7 @@
 
 ## 🚀 About Me
 
-- 🎓 Student and aspiring Frontend Developer
+- 🎓 Student and aspiring Full Stack Developer
 - 🌐 Building responsive websites with HTML, CSS & JavaScript
 - 📚 Currently learning Git, GitHub and modern web development
 - 💡 Interested in UI/UX, animations and creative web design
