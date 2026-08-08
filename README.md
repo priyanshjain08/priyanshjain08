@@ -1,6 +1,8 @@
-# Hi i am PJ👋
+<h1 align = "center">Hi i am PJ👋</h1>
 
-### Full Stack Developer • Web Designer • Student
+<p align = "center"> Full Stack Developer • Web Designer • Student</p>
+
+---
 
 ## 🚀 About Me
 
