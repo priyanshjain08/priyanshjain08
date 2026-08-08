@@ -1,4 +1,4 @@
-## Hi i am PJ👋
+# Hi i am PJ👋
 
 ### Full Stack Developer • Web Designer • Student
 
@@ -27,7 +27,7 @@ Here are some ideas to get you started:
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/linkedin/in/priyanshjain08) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:priyanshjain08.official@gmail.com) 
 
-# 💻 Tech Stack
+## 💻 Tech Stack
 
 ### 🎨 Frontend
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML) 
@@ -63,7 +63,7 @@ A modern business landing page with a clean and responsive design.
 
 More projects coming soon...
 
-# 📊 GitHub Stats:
+## 📊 GitHub Stats:
 ![](https://github-readme-stats.shion.dev/api?username=priyanshjain08&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://streak-stats.demolab.com/?user=priyanshjain08&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=priyanshjain08&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
