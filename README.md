@@ -30,7 +30,7 @@ Here are some ideas to get you started:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/linkedin/in/priyanshjain08) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:priyanshjain08.official@gmail.com) 
 
 <br>
-
+---
 ## 💻 Tech Stack
 
 ### 🎨 Frontend
