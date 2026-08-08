@@ -11,7 +11,7 @@
 - 🚀 Building projects and continuously improving my development skills
 
 ---
-<br>
+
 
 
 <!--
@@ -34,7 +34,7 @@ Here are some ideas to get you started:
 
 
 ---
-<br>
+
 
 ## 💻 Tech Stack
 
@@ -63,7 +63,7 @@ Here are some ideas to get you started:
 [![Java](https://img.shields.io/badge/Java-ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
 
 ---
-<br>
+
 
 ## 📂 Featured Projects
 
@@ -76,7 +76,7 @@ A modern business landing page with a clean and responsive design.
 More projects coming soon...
 
 ---
-<br>
+
 
 ## 📊 GitHub Stats:
 ![](https://github-readme-stats.shion.dev/api?username=priyanshjain08&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
