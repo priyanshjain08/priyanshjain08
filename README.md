@@ -4,11 +4,11 @@
 
 ## 🚀 About Me
 
-- 🎓 Student and aspiring Full Stack Developer
-- 🌐 Building responsive websites with HTML, CSS & JavaScript
-- 📚 Currently learning Git, GitHub and modern web development
-- 💡 Interested in UI/UX, animations and creative web design
-- 🎯 Goal: Become a Full-Stack Developer
+- 🎓 Student passionate about web development and technology
+- 💻 Building responsive and modern websites using HTML, CSS & JavaScript
+- 🛠️ Exploring full-stack development and expanding my tech stack
+- 🎨 Interested in UI/UX, animations and creative web design
+- 🚀 Building projects and continuously improving my development skills
 <!--
 **priyanshjain08/priyanshjain08** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
