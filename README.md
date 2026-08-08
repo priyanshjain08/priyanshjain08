@@ -1,6 +1,6 @@
 ## Hi i am PJ👋
 
-### Full-stack Developer • Web Designer • Student
+### Full Stack Developer • Web Designer • Student
 
 ## 🚀 About Me
 
