@@ -10,7 +10,10 @@
 - 🎨 Interested in UI/UX, animations and creative web design
 - 🚀 Building projects and continuously improving my development skills
 
-  <br>
+---
+<br>
+
+
 <!--
 **priyanshjain08/priyanshjain08** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -29,8 +32,10 @@ Here are some ideas to get you started:
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/linkedin/in/priyanshjain08) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:priyanshjain08.official@gmail.com) 
 
-<br>
+
 ---
+<br>
+
 ## 💻 Tech Stack
 
 ### 🎨 Frontend
@@ -57,6 +62,7 @@ Here are some ideas to get you started:
 [![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) 
 [![Java](https://img.shields.io/badge/Java-ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
 
+---
 <br>
 
 ## 📂 Featured Projects
@@ -69,6 +75,7 @@ A modern business landing page with a clean and responsive design.
 
 More projects coming soon...
 
+---
 <br>
 
 ## 📊 GitHub Stats:
