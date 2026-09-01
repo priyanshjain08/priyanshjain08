@@ -71,10 +71,16 @@ Here are some ideas to get you started:
 ## 📂 Featured Projects
 
 ### 🌟 Personal Portfolio
-A responsive portfolio website showcasing my skills and projects.
+A responsive portfolio website showcasing my skills, projects, and work as a developer.
 
 ### 🚀 Zero8 Studio
-A modern business landing page with a clean and responsive design.
+A modern and responsive business landing page with a clean user interface.
+
+### 📊 BizFlow – Business Management System
+A modern business management dashboard designed to help manage customers, products, orders, inventory, and business analytics in one place.
+
+### 🧠 AlgoViz – Algorithm Visualizer
+An interactive algorithm visualization tool that demonstrates sorting, searching, data structures, and graph algorithms through animations and visual representations.
 
 More projects coming soon...
 
