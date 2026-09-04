@@ -1,6 +1,6 @@
 <h1 align = "center">Hi i am PJ👋</h1>
 
-<p align = "center"> Full Stack Developer • Web Designer • Student</p>
+<p align = "center"> Full Stack Developer • Web Designer • Tech Enthusiast</p>
 
 
 <br>
