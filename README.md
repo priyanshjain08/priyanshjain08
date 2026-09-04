@@ -5,13 +5,16 @@
 
 <br>
 
-## 🚀 About Me
+## 🪶 About Me
 
-- 💻 Full Stack Web Developer passionate about web development and technology
-- 💻 Building responsive and modern websites using HTML, CSS & JavaScript
-- 🛠️ Exploring full-stack development and expanding my tech stack
-- 🎨 Interested in UI/UX, animations and creative web design
-- 🚀 Building projects and continuously improving my development skills
+- 💻 Full Stack Web Developer building modern, responsive and scalable web applications
+- ⚛️ Experienced with technologies including React, Next.js, Node.js, JavaScript, Supabase and Firebase
+- 🗄️ Working with databases such as PostgreSQL and building complete frontend-to-backend applications
+- 🎨 Interested in UI/UX and designing modern interfaces using Figma and Framer
+- 🤖 Exploring automation and workflow development with n8n
+- 📊 Skilled in data visualization and productivity tools including Power BI, Excel and PowerPoint
+- 🧠 Continuously learning new technologies and expanding my skills across web development and software development
+- 🚀 Building projects, experimenting with ideas and turning them into functional applications
 
 <br>
 
