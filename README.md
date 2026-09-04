@@ -7,7 +7,7 @@
 
 ## 🚀 About Me
 
-- 🎓 Student passionate about web development and technology
+- 💻 Full Stack Web Developer passionate about web development and technology
 - 💻 Building responsive and modern websites using HTML, CSS & JavaScript
 - 🛠️ Exploring full-stack development and expanding my tech stack
 - 🎨 Interested in UI/UX, animations and creative web design
