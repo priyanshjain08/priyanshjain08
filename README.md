@@ -97,17 +97,9 @@ Here are some ideas to get you started:
 
 ## 📂 Featured Projects
 
-### 🌟 Personal Portfolio
-A responsive portfolio website showcasing my skills, projects, and work as a developer.
+### DevDesk - Project & Issue Management Platform
 
-### 🚀 Zero8 Studio
-A modern and responsive business landing page with a clean user interface.
-
-### 📊 BizFlow – Business Management System
-A modern business management dashboard designed to help manage customers, products, orders, inventory, and business analytics in one place.
-
-### 🧠 AlgoViz – Algorithm Visualizer
-An interactive algorithm visualization tool that demonstrates sorting, searching, data structures, and graph algorithms through animations and visual representations.
+DevDesk is a comprehensive project and issue management platform designed for software developers, teams, and small organizations.
 
 More projects coming soon...
 
