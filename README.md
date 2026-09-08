@@ -101,6 +101,10 @@ Here are some ideas to get you started:
 
 DevDesk is a comprehensive project and issue management platform designed for software developers, teams, and small organizations.
 
+### System Resource Monitor
+
+A terminal-based system monitoring application written in C for Linux systems.
+
 More projects coming soon...
 
 <br>
