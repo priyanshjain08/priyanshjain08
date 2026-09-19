@@ -112,7 +112,7 @@ DevDesk is a comprehensive project and issue management platform designed for so
 
 A terminal-based system monitoring application written in C for Linux systems.
 
-More projects coming soon...
+<b> More projects coming soon... </b>
 
 <br>
 
