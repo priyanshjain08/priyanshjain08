@@ -1,9 +1,10 @@
 <h1 align = "center">Hi i am PJ👋</h1>
+
+<p align = "center"> Student • Web Designer • Tech Enthusiast</p>
 <p align="center">
   <img src="./assets/coffee-code-deploy.gif" width="700">
 </p>
 
-<p align = "center"> Student • Web Designer • Tech Enthusiast</p>
 
 
 <br>
