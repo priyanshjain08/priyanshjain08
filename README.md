@@ -1,6 +1,4 @@
 <h1 align = "center">Hi i am PJ👋</h1><p align="center">
-  <img src="./assets/cute-cat-running-in-place.gif" width="300">
-</p>
 
 <p align = "center"> Student • Web Designer • Tech Enthusiast</p>
 <!-- <p align="center">
