@@ -1,13 +1,13 @@
 <h1 align = "center">Hi i am PJ👋</h1>
 
-<p align = "center"> Full Stack Developer • Web Designer • Tech Enthusiast</p>
+<p align = "center"> Student • Web Designer • Tech Enthusiast</p>
 
 
 <br>
 
 ## 🪶 About Me
 
-- 💻 Full Stack Web Developer building modern, responsive and scalable web applications
+- 💻 Computer Science student building modern, responsive and scalable web applications
 - ⚛️ Experienced with technologies including React, Next.js, Node.js, JavaScript, Supabase and Firebase
 - 🗄️ Working with databases such as PostgreSQL and building complete frontend-to-backend applications
 - 🎨 Interested in UI/UX and designing modern interfaces using Figma and Framer
