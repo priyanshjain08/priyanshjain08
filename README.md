@@ -1,4 +1,4 @@
-<h1 align = "center">Hi i am PJ👋</h1><p align="center">
+<h1 align = "center">Hi i am Priyansh👋</h1><p align="center">
 
 <p align = "center"> Student • Web Designer • Tech Enthusiast</p>
 <!-- <p align="center">
