@@ -130,6 +130,20 @@ A terminal-based system monitoring application written in C for Linux systems.
 <br>
 
 
+<br>
+
+## 📈 Contribution Activity
+
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=priyanshjain08&bg_color=0d1117&color=58a6ff&line=1f6feb&point=79c0ff&area=true&hide_border=true"
+    alt="Priyansh's GitHub Contribution Graph"
+    width="100%"
+  />
+</p>
+
+<br>
+
 <!--## 📊 GitHub Stats:
 ![](https://github-readme-stats.shion.dev/api?username=priyanshjain08&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://streak-stats.demolab.com/?user=priyanshjain08&theme=dark&hide_border=false)<br/>
