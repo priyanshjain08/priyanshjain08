@@ -137,13 +137,14 @@ A terminal-based system monitoring application written in C for Linux systems.
 
 <p align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=priyanshjain08&bg_color=0d1117&color=58a6ff&line=1f6feb&point=79c0ff&area=true&hide_border=true&custom_title=My%20GitHub%20Activity"
-    alt="GitHub Contribution Graph"
+    src="https://readme-stats-theta-sepia.vercel.app/api/activity-graph?username=priyanshjain08&theme=dark&line_color=%2358a6ff&area_color=%231f6feb"
+    alt="Priyansh's GitHub Activity Graph"
     width="100%"
   />
 </p>
 
 <br>
+
 
 
 <!--## 📊 GitHub Stats:
