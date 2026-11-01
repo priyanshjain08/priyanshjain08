@@ -1,6 +1,6 @@
 <h1 align = "center">Hi i am Priyansh👋</h1><p align="center">
 
-<p align = "center"> Student • Web Designer • Tech Enthusiast</p> 
+  <p align = "center"> Student • Web Designer • Tech Enthusiast</p> 
 <!-- <p align="center">
   <img src="./assets/coffee-code-deploy.gif" width="700">
 </p> -->
@@ -131,16 +131,17 @@ A terminal-based system monitoring application written in C for Linux systems.
 
 
 
-<br>
-
 ## 📈 Contribution Activity
 
 <p align="center">
-  <img
-    src="https://readme-stats-theta-sepia.vercel.app/api/activity-graph?username=priyanshjain08&theme=dark&line_color=%2358a6ff&area_color=%231f6feb"
-    alt="Priyansh's GitHub Activity Graph"
-    width="100%"
-  />
+  <a href="https://priyanshjain08.github.io/priyanshjain08/">
+    <img src="https://img.shields.io/badge/OPEN-INTERACTIVE%20CONTRIBUTION%20DASHBOARD-2389ff?style=for-the-badge&logo=github" />
+  </a>
+</p>
+
+<p align="center">
+  Explore my GitHub contribution analytics, activity trends,
+  daily contributions and yearly statistics.
 </p>
 
 <br>
