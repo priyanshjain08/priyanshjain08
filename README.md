@@ -129,23 +129,17 @@ A terminal-based system monitoring application written in C for Linux systems.
 
 <br>
 
-
-
 ## 📈 Contribution Activity
 
 <p align="center">
-  <a href="https://priyanshjain08.github.io/priyanshjain08/">
-    <img src="https://img.shields.io/badge/OPEN-INTERACTIVE%20CONTRIBUTION%20DASHBOARD-2389ff?style=for-the-badge&logo=github" />
-  </a>
-</p>
-
-<p align="center">
-  Explore my GitHub contribution analytics, activity trends,
-  daily contributions and yearly statistics.
+  <img
+    src="./assets/contribution-graph.svg"
+    alt="GitHub Contribution Graph"
+    width="100%"
+  />
 </p>
 
 <br>
-
 
 
 <!--## 📊 GitHub Stats:
