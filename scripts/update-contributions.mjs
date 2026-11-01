@@ -5,9 +5,7 @@ import path from "node:path";
 const username = "priyanshjain08";
 const token = process.env.GH_TOKEN;
 
-if (!token) {
-  throw new Error("GH_TOKEN secret is missing.");
-}
+if (!token) throw new Error("GH_TOKEN secret is missing.");
 
 const year = new Date().getUTCFullYear();
 
@@ -51,166 +49,149 @@ if (!response.ok) {
 const result = await response.json();
 
 if (result.errors?.length) {
-  throw new Error(JSON.stringify(result.errors, null, 2));
+  throw new Error(JSON.stringify(result.errors));
 }
 
 const calendar =
   result.data?.user?.contributionsCollection?.contributionCalendar;
 
-if (!calendar) {
-  throw new Error("Could not retrieve the contribution calendar.");
-}
+if (!calendar) throw new Error("Contribution calendar unavailable.");
 
 const total = calendar.totalContributions;
 
-const counts = new Map();
+// Convert daily contributions into weekly totals.
+const weekly = calendar.weeks.map((week) =>
+  week.contributionDays.reduce(
+    (sum, day) => sum + day.contributionCount,
+    0
+  )
+);
 
-for (const week of calendar.weeks) {
-  for (const day of week.contributionDays) {
-    counts.set(day.date, day.contributionCount);
-  }
-}
-
-const start = new Date(Date.UTC(year, 0, 1));
-const end = new Date(Date.UTC(year, 11, 31));
-
-const firstMonday = new Date(start);
-const offset = (start.getUTCDay() + 6) % 7;
-firstMonday.setUTCDate(firstMonday.getUTCDate() - offset);
-
-const cell = 11;
-const gap = 3;
-const step = cell + gap;
-const left = 58;
-const top = 38;
 const width = 1000;
-const height = 170;
+const height = 330;
+const left = 65;
+const right = 25;
+const top = 55;
+const bottom = 65;
 
-function colorFor(count) {
-  if (count === 0) return "#161b22";
-  if (count <= 2) return "#0e4429";
-  if (count <= 4) return "#006d32";
-  if (count <= 6) return "#26a641";
-  return "#39d353";
-}
+const chartWidth = width - left - right;
+const chartHeight = height - top - bottom;
 
-function escapeXml(value) {
-  return String(value)
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
-}
+const maxValue = Math.max(5, ...weekly);
+const yMax = Math.ceil(maxValue / 5) * 5;
 
-const rects = [];
-const months = [];
-const monthNames = [
-  "Jan", "Feb", "Mar", "Apr", "May", "Jun",
-  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
-];
+const x = (i) =>
+  left + (i / Math.max(1, weekly.length - 1)) * chartWidth;
 
-for (let month = 0; month < 12; month++) {
+const y = (value) =>
+  top + chartHeight - (value / yMax) * chartHeight;
+
+const points = weekly
+  .map((value, i) => `${x(i)},${y(value)}`)
+  .join(" ");
+
+const areaPath = [
+  `M ${x(0)} ${top + chartHeight}`,
+  ...weekly.map((value, i) => `L ${x(i)} ${y(value)}`),
+  `L ${x(weekly.length - 1)} ${top + chartHeight}`,
+  "Z",
+].join(" ");
+
+const gridLines = Array.from({ length: 5 }, (_, i) => {
+  const value = (yMax / 4) * i;
+  const yy = y(value);
+
+  return `
+    <line x1="${left}" y1="${yy}" x2="${width - right}" y2="${yy}"
+      stroke="#30363d" stroke-width="1" />
+    <text x="${left - 14}" y="${yy + 4}" text-anchor="end"
+      class="axis">${Math.round(value)}</text>
+  `;
+}).join("");
+
+const monthLabels = Array.from({ length: 12 }, (_, month) => {
   const date = new Date(Date.UTC(year, month, 1));
-  const daysFromMonday =
-    Math.round((date - firstMonday) / 86400000);
-  const week = Math.floor(daysFromMonday / 7);
-
-  months.push(
-    `<text x="${left + week * step}" y="17" class="month">${monthNames[month]}</text>`
+  const weekIndex = calendar.weeks.findIndex((week) =>
+    week.contributionDays.some((day) =>
+      day.date === date.toISOString().slice(0, 10)
+    )
   );
-}
 
-for (
-  let date = new Date(start);
-  date <= end;
-  date.setUTCDate(date.getUTCDate() + 1)
-) {
-  const dateString = date.toISOString().slice(0, 10);
-  const count = counts.get(dateString) ?? 0;
+  if (weekIndex < 0) return "";
 
-  const daysFromMonday =
-    Math.round((date - firstMonday) / 86400000);
+  const labels = [
+    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+  ];
 
-  const week = Math.floor(daysFromMonday / 7);
-  const weekday = daysFromMonday % 7;
-
-  const x = left + week * step;
-  const y = top + weekday * step;
-
-  rects.push(`
-    <rect
-      x="${x}"
-      y="${y}"
-      width="${cell}"
-      height="${cell}"
-      rx="2"
-      fill="${colorFor(count)}"
-    >
-      <title>${count} contributions on ${dateString}</title>
-    </rect>
-  `);
-}
-
-const dayLabels = [
-  { text: "Mon", row: 0 },
-  { text: "Wed", row: 2 },
-  { text: "Fri", row: 4 },
-];
-
-const labels = dayLabels.map(
-  ({ text, row }) =>
-    `<text x="30" y="${top + row * step + 9}" class="day">${text}</text>`
-).join("");
-
-const legendColors = [0, 1, 3, 5, 7]
-  .map((count, index) => `
-    <rect
-      x="${width - 176 + index * 18}"
-      y="143"
-      width="12"
-      height="12"
-      rx="2"
-      fill="${colorFor(count)}"
-    />
-  `).join("");
+  return `
+    <text x="${x(weekIndex)}" y="${height - 24}"
+      text-anchor="middle" class="month">${labels[month]}</text>
+  `;
+}).join("");
 
 const svg = `
 <svg xmlns="http://www.w3.org/2000/svg"
      width="${width}" height="${height}"
      viewBox="0 0 ${width} ${height}">
+
+  <defs>
+    <linearGradient id="blueArea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
   <style>
     text {
       font-family: Arial, Helvetica, sans-serif;
       fill: #c9d1d9;
     }
-    .heading {
-      font-size: 18px;
+    .title {
+      font-size: 21px;
       font-weight: 600;
+    }
+    .subtitle {
+      font-size: 12px;
+      fill: #8b949e;
+    }
+    .axis {
+      font-size: 11px;
+      fill: #8b949e;
     }
     .month {
       font-size: 12px;
-    }
-    .day {
-      font-size: 11px;
-      text-anchor: middle;
-    }
-    .legend {
-      font-size: 11px;
       fill: #8b949e;
     }
   </style>
 
-  <text x="0" y="17" class="heading">
+  <text x="${left}" y="27" class="title">
+    Contribution Activity
+  </text>
+
+  <text x="${width - right}" y="27"
+        text-anchor="end" class="subtitle">
     ${total} contributions in ${year}
   </text>
 
-  ${months.join("")}
-  ${labels}
-  ${rects.join("")}
+  ${gridLines}
 
-  <text x="${width - 252}" y="153" class="legend">Less</text>
-  ${legendColors}
-  <text x="${width - 76}" y="153" class="legend">More</text>
+  <path d="${areaPath}" fill="url(#blueArea)" />
+
+  <polyline
+    points="${points}"
+    fill="none"
+    stroke="#58a6ff"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  ${monthLabels}
+
+  <text x="${left}" y="${height - 5}" class="subtitle">
+    Weekly contribution count
+  </text>
 </svg>
 `;
 
@@ -223,4 +204,4 @@ const output = path.join(
 fs.mkdirSync(path.dirname(output), { recursive: true });
 fs.writeFileSync(output, svg.trim() + "\n", "utf8");
 
-console.log(`Updated ${year} contribution graph: ${total} contributions.`);
+console.log(`Generated blue graph: ${total} contributions in ${year}.`);
