@@ -94,6 +94,9 @@ const coords = weekly.map((value, i) => ({
   y: y(value)
 }));
 
+const points = coords
+  .map(({ x, y }) => `${x},${y}`)
+  .join(" ");
 function smoothPath(points, tension = 0.65) {
   if (points.length < 2) return "";
 
