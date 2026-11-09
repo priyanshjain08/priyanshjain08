@@ -106,7 +106,7 @@ Here are some ideas to get you started:
 
 ## 📂 Featured Projects
 
-### Priyansh Jain — Portfolio
+### Personal Portfolio
 
 A responsive personal portfolio website of **Priyansh Jain**, presented as a web designer and digital creative. The site highlights an introduction, design and development skills, selected frontend projects, and contact option.
 
