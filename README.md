@@ -115,6 +115,10 @@ Here are some ideas to get you started:
 
 A responsive personal portfolio website of **Priyansh Jain**, presented as a web designer and digital creative. The site highlights an introduction, design and development skills, selected frontend projects, and contact option.
 
+### StudySphere
+
+A native, offline-first Android app for students, built with Kotlin and Jetpack Compose. It brings a study planner, assignments, Pomodoro focus timer, notes, spaced-repetition flashcards, exam tracker, analytics and reminders into one app
+
 ### SyncSpace
 
 SyncSpace is a real-time collaborative workspace for teams: create workspaces,
