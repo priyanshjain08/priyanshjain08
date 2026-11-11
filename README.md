@@ -117,7 +117,7 @@ A responsive personal portfolio website of **Priyansh Jain**, presented as a web
 
 ### Reforge
 
-REFORGE is a self-healing platform that monitors services, detects failures, diagnoses the likely cause, and applies policy-approved fixes like restarting a crashed container, then verifies the service is healthy again. Every action is audited and can be stopped with a kill switch, and it comes with a React dashboard and a chaos lab for safely breaking demo services.
+A self-healing platform that monitors services, detects failures, diagnoses the likely cause, and applies policy-approved fixes like restarting a crashed container, then verifies the service is healthy again. Every action is audited and can be stopped with a kill switch, and it comes with a React dashboard and a chaos lab for safely breaking demo services.
 
 ### StudySphere
 
