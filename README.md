@@ -111,9 +111,13 @@ Here are some ideas to get you started:
 
 ## 📂 Featured Projects
 
-### Personal Portfolio
+<!--### Personal Portfolio
 
-A responsive personal portfolio website of **Priyansh Jain**, presented as a web designer and digital creative. The site highlights an introduction, design and development skills, selected frontend projects, and contact option.
+A responsive personal portfolio website of **Priyansh Jain**, presented as a web designer and digital creative. The site highlights an introduction, design and development skills, selected frontend projects, and contact option.-->
+
+### Reforge
+
+REFORGE is a self-healing platform that monitors services, detects failures, diagnoses the likely cause, and applies policy-approved fixes like restarting a crashed container, then verifies the service is healthy again. Every action is audited and can be stopped with a kill switch, and it comes with a React dashboard and a chaos lab for safely breaking demo services.
 
 ### StudySphere
 
