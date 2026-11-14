@@ -151,11 +151,6 @@ manage projects and tasks on a Kanban board, chat with your team, and see
 everything update live for everyone else looking at it — no page refresh.
 
 
-### DevDesk - Project & Issue Management Platform
-
-DevDesk is a comprehensive project and issue management platform designed for software developers, teams, and small organizations.
-
-
 <b> More projects coming soon... </b>
 
 <br>
