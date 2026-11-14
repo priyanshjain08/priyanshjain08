@@ -136,6 +136,10 @@ Here are some ideas to get you started:
 
 A responsive personal portfolio website of **Priyansh Jain**, presented as a web designer and digital creative. The site highlights an introduction, design and development skills, selected frontend projects, and contact option.-->
 
+### Nexora
+
+An autonomous agent platform that plans a task, runs real tools through specialist agents, verifies its own output, and delivers downloadable files, with human approval required for risky actions.
+
 ### Reforge
 
 A self-healing platform that monitors services, detects failures, diagnoses the likely cause, and applies policy-approved fixes like restarting a crashed container, then verifies the service is healthy again. Every action is audited and can be stopped with a kill switch, and it comes with a React dashboard and a chaos lab for safely breaking demo services.
