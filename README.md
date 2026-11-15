@@ -151,13 +151,21 @@ A self-healing platform that detects service failures, diagnoses the cause, appl
 
 ## 📈 Contribution Activity
 
+
 <p align="center">
+  <a href="https://priyanshjain08.github.io/priyanshjain08/">
+    <img src="https://img.shields.io/badge/MY%20CONTRIBUTIONS-LIVE-238636?style=for-the-badge&logo=github&logoColor=white"
+         alt="MY CONTRIBUTIONS LIVE">
+  </a>
+</p>
+
+<!--<p align="center">
   <a href="https://priyanshjain08.github.io/priyanshjain08/">
     <img src="YOUR-STATIC-CHART-PREVIEW.png"
          width="100%"
          alt="Interactive Contribution Dashboard">
   </a>
-</p>
+</p>-->
 
 <!--<p align="center">
   <img
