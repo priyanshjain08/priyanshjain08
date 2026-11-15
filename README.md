@@ -136,10 +136,9 @@ Here are some ideas to get you started:
 
 A responsive personal portfolio website of **Priyansh Jain**, presented as a web designer and digital creative. The site highlights an introduction, design and development skills, selected frontend projects, and contact option.-->
 
-### Nexora
+### Stocksense
 
-An autonomous agent platform that plans a task, runs real tools through specialist agents, verifies its own output, and delivers downloadable files, with human approval required for risky actions.
-
+Multi-tenant inventory intelligence platform for retail, with demand forecasting, explainable replenishment, and an immutable stock ledger (FastAPI + React).
 
 
 <b> More projects coming soon... </b>
