@@ -140,6 +140,10 @@ A responsive personal portfolio website of **Priyansh Jain**, presented as a web
 
 Multi-tenant inventory intelligence platform for retail, with demand forecasting, explainable replenishment, and an immutable stock ledger (FastAPI + React).
 
+### Reforge
+
+A self-healing platform that detects service failures, diagnoses the cause, applies approved fixes automatically, and verifies the recovery.
+
 
 <b> More projects coming soon... </b>
 
