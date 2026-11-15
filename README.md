@@ -140,19 +140,6 @@ A responsive personal portfolio website of **Priyansh Jain**, presented as a web
 
 An autonomous agent platform that plans a task, runs real tools through specialist agents, verifies its own output, and delivers downloadable files, with human approval required for risky actions.
 
-### Reforge
-
-A self-healing platform that monitors services, detects failures, diagnoses the likely cause, and applies policy-approved fixes like restarting a crashed container, then verifies the service is healthy again. Every action is audited and can be stopped with a kill switch, and it comes with a React dashboard and a chaos lab for safely breaking demo services.
-
-### StudySphere
-
-A native, offline-first Android app for students, built with Kotlin and Jetpack Compose. It brings a study planner, assignments, Pomodoro focus timer, notes, spaced-repetition flashcards, exam tracker, analytics and reminders into one app
-
-### SyncSpace
-
-SyncSpace is a real-time collaborative workspace for teams: create workspaces,
-manage projects and tasks on a Kanban board, chat with your team, and see
-everything update live for everyone else looking at it — no page refresh.
 
 
 <b> More projects coming soon... </b>
