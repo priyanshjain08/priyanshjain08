@@ -152,12 +152,12 @@ A self-healing platform that detects service failures, diagnoses the cause, appl
 ## 📈 Contribution Activity
 
 
-<p align="center">
+<!--<p align="center">
   <a href="https://priyanshjain08.github.io/priyanshjain08/">
     <img src="https://img.shields.io/badge/MY%20CONTRIBUTIONS-LIVE-238636?style=for-the-badge&logo=github&logoColor=white"
          alt="MY CONTRIBUTIONS LIVE">
   </a>
-</p>
+</p>-->
 
 <!--<p align="center">
   <a href="https://priyanshjain08.github.io/priyanshjain08/">
@@ -167,13 +167,13 @@ A self-healing platform that detects service failures, diagnoses the cause, appl
   </a>
 </p>-->
 
-<!--<p align="center">
+<p align="center">
   <img
     src="./assets/contribution-graph.svg"
     alt="GitHub Contribution Graph"
     width="100%"
   />
-</p>-->
+</p>
 
 <br>
 
